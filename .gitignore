@@ -1,0 +1,25 @@
+# ===== 数据（不传入 Git，README 里有下载方式；大数据养成不传仓库的习惯）=====
+data/
+# 如想保留一个很小的样例数据，可取消下面这行的注释：
+# !data/sample.csv
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# ===== 导出的图片可按需保留（figures/ 默认上传，方便在 README 展示）=====
+# 若不想传图片，取消下一行注释：
+# figures/
+
+# ===== 系统/编辑器 =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
