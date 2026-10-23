@@ -23,3 +23,12 @@ env/
 Thumbs.db
 .vscode/
 .idea/
+# 模型文件（二进制，不入库）
+models/
+*.joblib
+
+# 我自己的练习文档
+docs/
+
+# 误留的终端截图
+mintty.*.png
